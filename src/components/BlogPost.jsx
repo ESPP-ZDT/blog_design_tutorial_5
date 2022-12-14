@@ -3,7 +3,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const BlogPost = () => {
   return (
-    <Container>
+    <Container style={{
+        fontFamily: 'Montserrat, sans-serif',
+        color: '#333',
+        backgroundColor: '#ccc',
+        padding: 0,
+        margin: 0,
+      }}>
       <Row>
         <Col>
           <h1>Blog Post Title</h1>

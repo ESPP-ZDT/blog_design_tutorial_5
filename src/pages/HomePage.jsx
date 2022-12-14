@@ -18,10 +18,10 @@ const HomePage = () => {
         </Col>
       </Row>
       <Row>
-        <Col md={2}>
+        <Col md={3}>
           <Sidebar />
         </Col>
-        <Col md={8}>
+        <Col md={7}>
           <BlogpostContainer />
         </Col>
       </Row>

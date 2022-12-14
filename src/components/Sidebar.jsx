@@ -9,7 +9,7 @@ const Sidebar = () => {
       {/* Add a button that toggles the collapsed state of the sidebar when clicked */}
       <button onClick={() => setCollapsed(!collapsed)}>Toggle sidebar</button>
       <nav
-        className={`col-md-4 d-none d-md-block sidebar text-white ${
+        className={`col-md-6 d-none d-md-block sidebar text-white ${
           collapsed ? "sidebar-collapse" : ""
         }`}
         style={{
